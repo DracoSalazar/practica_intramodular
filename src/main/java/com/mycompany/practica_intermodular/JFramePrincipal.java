@@ -6,7 +6,7 @@ package com.mycompany.practica_intermodular;
 
 /**
  *
- * @author Usuario
+ * @author Lucas Ruiz Martínez
  */
 public class JFramePrincipal extends javax.swing.JFrame {
 
@@ -15,6 +15,7 @@ public class JFramePrincipal extends javax.swing.JFrame {
      */
     public JFramePrincipal() {
         initComponents();
+        
     }
 
     /**
@@ -113,7 +114,7 @@ public class JFramePrincipal extends javax.swing.JFrame {
         jSeparator3.setOrientation(javax.swing.SwingConstants.VERTICAL);
 
         jCombo_planetas.setForeground(new java.awt.Color(0, 0, 0));
-        jCombo_planetas.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Mercurio", "Venus", "Tierra", "Marte", "Júpiter", "Saturno", "Urano", "Neptuno" }));
+        jCombo_planetas.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Elige planeta", "Mercurio", "Venus", "Tierra", "Marte", "Júpiter", "Saturno", "Urano", "Neptuno" }));
         jCombo_planetas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jCombo_planetasActionPerformed(evt);
@@ -353,6 +354,7 @@ public class JFramePrincipal extends javax.swing.JFrame {
 
     private void jCombo_planetasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCombo_planetasActionPerformed
         // Aqui van las elecciones
+        
         
         
         
